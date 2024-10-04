@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(44, 44, 44);
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 3px;
+}
+
+#cabecalho{
+    background-color: rgb(20, 20, 20);
+}
+
+#tittle{
+    font-size: 40px;
+    text-decoration:double;
+    
+}
+
+#titulo{
+    text-align: center;
+    border: solid 2px white;
+}
+
+#linkedin{
+    font-size: 30px;
+    color: #0e76a8;
+    margin-left: 10px;
+}
+
+#github{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.tituloAtividade{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#atividades{
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+}
+
+.atividade{
+    text-align: center;
+    border: solid 2px white;
+    display: inline;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    border: solid white 1px;
+    color:white;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
